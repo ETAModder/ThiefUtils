@@ -1,7 +1,6 @@
 package eta.thief;
 
 import eta.thief.chat.ChatListener;
-import eta.thief.FastLavaListener;
 import eta.thief.commands.BombCommand;
 import eta.thief.commands.BombTabCompleter;
 import eta.thief.commands.FireCommand;
@@ -16,7 +15,6 @@ public final class Main extends JavaPlugin {
 
         getServer().getPluginManager().registerEvents(new ChatListener(), this);
 
-        getServer().getPluginManager().registerEvents(new FastLavaListener(this), this);
 
         getCommand("bomb").setExecutor(new BombCommand());
         getCommand("bomb").setTabCompleter(new BombTabCompleter());
