@@ -1,8 +1,16 @@
 name: ThiefUtils
-version: 1.6
+version: 1.9
 main: eta.thief.Main
 api-version: 1.21
 
 commands:
   bomb:
     description: spawns bombs
+  fire:
+    description: places fire around you
+  fill-tnt:
+    description: a cube of destruction
+  fill-sponge:
+    description: a cube of hydration
+  fill-air:
+    description: a cube of nothing
