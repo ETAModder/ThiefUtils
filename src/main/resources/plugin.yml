@@ -1,4 +1,8 @@
 name: ThiefUtils
-version: 1.0
+version: 1.6
 main: eta.thief.Main
 api-version: 1.21
+
+commands:
+  bomb:
+    description: spawns bombs
