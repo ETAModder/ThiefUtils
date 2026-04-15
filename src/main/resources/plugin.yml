@@ -1,0 +1,4 @@
+name: ThiefUtils
+version: 1.0
+main: eta.thief.Main
+api-version: 1.21
